@@ -38,6 +38,7 @@ body {
 ==============================================*/
 
 .nav {
+	display: flex;
 	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -46,8 +47,15 @@ body {
 .nav__link {
 	color: #fff;
 	text-decoration: none;
+	margin-left: 59px;
+	opacity: 0.75;
+	transition: opacity .1s linear;
 }
 
 .nav__link:hover {
-	text-decoration: underline;
+	opacity: 1;
+}
+
+.nav__link:first-child {
+	margin-left: 0;
 }
