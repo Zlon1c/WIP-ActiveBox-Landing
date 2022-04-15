@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #6c7279;
+}
+
+*,
+*:before, 
+*:after {
+	box-sizing: border-box;
+}
+
+/* CONTAINER 
+==============================================*/
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/* HEADER 
+==============================================*/
+
+.header {
+	background-color: #31344e;
+}
+
+.header__inner {
+	padding: 35px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #505369;
+}
+
+/* NAV
+==============================================*/
+
+.nav {
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.nav__link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__link:hover {
+	text-decoration: underline;
+}
